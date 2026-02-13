@@ -133,6 +133,6 @@ func uploadImage(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, gin.H{
-		"url": "http://localhost:8080/uploads/" + file.Filename,
+		"url": "https://book-ejyl.onrender.com/uploads/" + file.Filename,
 	})
 }
